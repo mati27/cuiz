@@ -1,0 +1,7 @@
+<h2>{{ quiz.currentQuestion().description }}</h2>
+
+<ul>
+    <li ng-repeat="answer in quiz.currentQuestion().answers">
+        <input type="radio" name="answer">{{ answer.description }}
+    </li>
+</ul>

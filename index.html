@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="cuiz">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CUIZ</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+<body ng-controller="AppController">
+    <h1>CUIZ | {{ quiz.title }}</h1>
+
+    <cuiz-question></cuiz-question>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers.js"></script>
+    <script src="directives.js"></script>
+</body>
+</html>
